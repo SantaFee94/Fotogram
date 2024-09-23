@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./src/css/style.css" />
+        <link rel="stylesheet" href="./src/css media queri/media_queri.css" />
+        <script src="./src/js/script.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
+    </head>
+    <body onload="render()">
+        <div id="overlay_wrapper" class="overlay_wrapper d_none" onclick="toggleOverlay(0, event)">
+            <div class="overlay_wrapper_design">
+                <div id="overlay" class="overlay d_none">
+                    <div class="counter_contain"><span id="image_counter"></span></div>
+                    <img id="overlay_img" src="" alt="" />
+                    <div class="buttons">
+                        <button class="event_button" onclick="imgBackward(event)">Zurück</button>
+                        <button class="event_button" onclick="toggleOverlay(0, event)">Schließen</button>
+                        <button class="event_button" onclick="imgForward(event)">Vor</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <header>
+            <span>Fotogram <img src="./img/logo/favicon_fotogram.png" alt="" /></span>
+        </header>
+
+        <section class="aot">
+            <h2>Your personal photo album</h2>
+            <div id="content"></div>
+        </section>
+
+        <footer>
+            <span> <img src="./img/logo/favicon_fotogram.png" alt="" /> © 2024 Timo Kosfeld</span>
+        </footer>
+    </body>
+</html>

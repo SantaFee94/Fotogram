@@ -1,0 +1,113 @@
+@media (max-width: 1111px) {
+    .album_img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 695px) {
+    .album_img {
+        width: 125px;
+        height: 125px;
+    }
+}
+
+@media (max-width: 600px) {
+    h2 {
+        text-align: center;
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+
+    .album_img {
+        width: 110px;
+        height: 110px;
+    }
+}
+
+@media (max-width: 550px) {
+    .overlay img {
+        height: 550px;
+        width: 450px;
+    }
+
+    .overlay {
+        height: 550px;
+        width: 450px;
+    }
+
+    .album_img {
+        width: 102px;
+        height: 102px;
+    }
+}
+
+@media (max-width: 480px) {
+    .overlay img {
+        height: 450px;
+        width: 350px;
+    }
+
+    .overlay {
+        height: 450px;
+        width: 350px;
+    }
+}
+
+@media (max-width: 390px) {
+    .album_img {
+        width: 100px;
+        height: 100px;
+    }
+}
+
+@media (max-width: 380px) {
+    .overlay img {
+        height: 400px;
+        width: 300px;
+    }
+
+    .overlay {
+        height: 400px;
+        width: 300px;
+    }
+
+    header span {
+        font-size: 32px;
+    }
+
+    header img {
+        width: 62px;
+    }
+
+    .album_img {
+        width: 95px;
+        height: 95px;
+    }
+}
+
+@media (max-width: 360px) {
+    .album_img {
+        width: 85px;
+        height: 85px;
+    }
+}
+
+@media (max-width: 350px) {
+    .overlay img {
+        height: 350px;
+        width: 250px;
+    }
+
+    .overlay {
+        height: 350px;
+        width: 250px;
+    }
+}
+
+@media (max-width: 328px) {
+    .album_img {
+        width: 80px;
+        height: 80px;
+    }
+}
